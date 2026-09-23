@@ -46,7 +46,7 @@ def presentation():
             html_content = f.read()
         return Response(html_content, mimetype='text/html')
     except FileNotFoundError:
-        return "Ошибка: Создайте файл presentation.html в корне проекта рядом с app.py!", 404
+        return "Ошибка: Я облажался!", 404
 
 if __name__ == '__main__':
     # Автоматическая настройка под порт Render или локальный порт 5000
