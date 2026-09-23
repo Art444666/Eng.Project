@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>BY.PROJECT</title>
+<!-- ВСТАВИТЬ_СТИЛИ_ИЗ_СООБЩЕНИЯ_3 -->
+</head>
+<body>
+<div class="lang-switcher">
+<button class="lang-btn active" data-lang="ru" onclick="toggleLang('ru')">RU</button>
+<button class="lang-btn" data-lang="en" onclick="toggleLang('en')">EN</button>
+</div>
+<nav class="sidebar">
+<div class="logo">BY.PROJECT</div>
+<button class="nav-btn active" onclick="changeSlide(0)" data-ru="🏰 Замки" data-en="🏰 Castles">🏰 Замки</button>
+<button class="nav-btn" onclick="changeSlide(1)" data-ru="🌿 Природа" data-en="🌿 Nature">🌿 Природа</button>
+<button class="nav-btn" onclick="changeSlide(2)" data-ru="👑 История" data-en="👑 History">👑 История</button>
+</nav>
+<main class="content">
+<section class="slide active">
+<h1 data-ru="Мистические замки" data-en="Mystical Castles">Мистические замки</h1>
+<p class="subtitle" data-ru="Легенды Мира, Несвижа и Лиды" data-en="Legends of Mir, Nesvizh and Lida">Легенды Мира, Несвижа и Лиды</p>
+<div class="grid">
+<div class="card" data-ru-title="Черная Панна Несвижа" data-en-title="The Black Lady of Nesvizh" data-img="https://ibb.co" data-ru-desc="Легенда о призраке Барбары Радзивилл, которая до сих пор бродит по залам Несвижского замка после своей трагической гибели. Её муж Жигимонт Август безумно любил её и после смерти пытался вызвать её душу с помощью алхимиков." data-en-desc="The legend of Barbara Radziwill's ghost, who still haunts the halls of Nesvizh Castle after her tragic death. Her husband Sigismund Augustus loved her madly and tried to summon her soul using alchemists.">
+<h3 data-ru="Черная Панна Несвижа" data-en="The Black Lady of Nesvizh">Черная Панна Несвижа</h3>
+<p data-ru="Легенда о призраке Барбары Радзивилл, которая до сих пор бродит по залам Несвижского замка после своей трагической гибели." data-en="The legend of Barbara Radziwill's ghost, who still haunts the halls of Nesvizh Castle after her tragic death.">Легенда о призраке Барбары Радзивилл, которая до сих пор бродит по залам Несвижского замка после своей трагической гибели.</p>
+</div>
+<div class="card" data-ru-title="Тайны Мирского замка" data-en-title="Secrets of Mir Castle" data-img="https://ibb.co" data-ru-desc="Замок хранит множество мрачных тайн. Самая известная — легенда о подземном ходе шириной в целую карету, который якобы связывает Мирский и Несвижский замки, а также о проклятом озере возле стен древней цитадели." data-en-desc="The castle keeps many dark secrets. The most famous is the legend of an underground tunnel wide enough for a carriage that supposedly links Mir and Nesvizh castles, and a cursed lake.">
+<h3 data-ru="Тайны Мирского замка" data-en="Secrets of Mir Castle">Тайны Мирского замка</h3>
+<p data-ru="История о скрытых под землей ходах шириной в карету, соединяющих замки, и о таинственном проклятии глубокого замкового пруда." data-en="The story of underground tunnels wide enough for a carriage connecting the castles, and the mysterious curse of the deep pond.">История о скрытых под землей ходах шириной в карету, соединяющих замки, и о таинственном проклятии глубокого замкового пруда.</p>
+</div>
+<div class="card" data-ru-title="Лидский замок Гедимина" data-en-title="Lida Castle of Gediminas" data-img="https://ibb.co" data-ru-desc="Основанный in 1323 году великим князем Гедимином для защиты от крестоносцев. Замок построен из бутового камня на искусственном песчаном острове. Сегодня это главный центр рыцарской культуры и фестивалей." data-en-desc="Founded in 1323 by Grand Duke Gediminas to protect against the Crusaders. The castle is built of rubble stone on an artificial sand island. Today it is a major center of knight culture.">
+<h3 data-ru="Лидский замок Гедимина" data-en="Lida Castle of Gediminas">Лидский замок Гедимина</h3>
+<p data-ru="Мощная оборонительная цитадель XIV века, выдержавшая осады крестоносцев. Сегодня здесь оживает эпоха средневековых рыцарских турниров." data-en="A powerful 14th-century defensive citadel that withstood Crusader sieges. Today, the era of medieval knight tournaments comes alive here.">Мощная оборонительная цитадель XIV века, выдержавшая осады крестоносцев. Сегодня здесь оживает эпоха средневековых рыцарских турниров.</p>
+</div>
+</div>
+</section>
+<section class="slide">
+<h1 data-ru="Дикая природа" data-en="Wildlife & Nature">Дикая природа</h1>
+<p class="subtitle" data-ru="Уникальные заповедные экосистемы" data-en="Unique protected ecosystems">Уникальные заповедные экосистемы</p>
+<div class="grid">
+<div class="card" data-ru-title="Болото Ельня" data-en-title="Yelnia Bog" data-img="https://ibb.co" data-ru-desc="Ельня — это огромный первозданный мир, которому более 9000 лет. Это самое большое верховое болото в Беларуси и одно из крупнейших в Европе. Оно служит важнейшей точкой остановки тысяч перелетных птиц." data-en-desc="Yelnia is a vast primordial world over 9,000 years old. It is the largest raised bog in Belarus and one of the largest in Europe. It serves as a vital stopover for thousands of migratory birds.">
+<h3 data-ru="Болото Ельня" data-en="Yelnia Bog">Болото Ельня</h3>
+<p data-ru="Одно из самых старых и огромных верховых болот в Европе возрастом более 9000 лет. Его заслуженно называют настоящими легкими нашего континента." data-en="One of the oldest and largest raised bogs in Europe, over 9,000 years old. It is rightfully called the real lungs of our continent.">Одно из самых старых и огромных верховых болот в Европе возрастом более 9000 лет. Его заслуженно называют настоящими легкими нашего континента.</p>
+</div>
+<div class="card" data-ru-title="Беловежская пуща" data-en-title="Bialowieza Forest" data-img="https://ibb.co" data-ru-desc="Это последний остаток реликтового первобытного равнинного леса, который когда-то покрывал всю Европу. Главное сокровище пущи — зубры, самые крупные и тяжелые наземные млекопитающие на континенте." data-en-desc="This is the last remnant of the relic primeval lowland forest that once covered all of Europe. The forest's main treasure is the bison, the largest land mammals on the continent.">
+<h3 data-ru="Беловежская пуща" data-en="Bialowieza Forest">Беловежская пуща</h3>
+<p data-ru="Древнейший охраняемый первобытный лес на равнинах Европы, ставший последним естественным домом для могучих реликтовых зубров." data-en="The oldest protected primeval forest on the plains of Europe, which has become the last natural home for the mighty relic bison.">Древнейший охраняемый первобытный лес на равнинах Европы, ставший последним естественным домом для могучих реликтовых зубров.</p>
+</div>
+<div class="card" data-ru-title="Браславские озера" data-en-title="Braslav Lakes" data-img="https://ibb.co" data-ru-desc="Национальный парк на севере Беларуси, объединяющий около 74 уникальных ледниковых озер. Необычный рельеф, холмы и глубокие водные впадины создают уникальный ландшафт, напоминающий Швейцарию." data-en-desc="A national park in the north of Belarus, uniting about 74 unique glacial lakes. Unusual relief, hills and deep water depressions create a landscape reminiscent of Switzerland.">
+<h3 data-ru="Браславские озера" data-en="Braslav Lakes">Браславские озера</h3>
+<p data-ru="Уникальное ожерелье из десятков ледниковых озер на севере страны, окруженных живописными холмами, глубокими каньонами и хвойными лесами." data-en="A unique necklace of dozens of glacial lakes in the north of the country, surrounded by picturesque hills, deep canyons and coniferous forests.">Уникальное ожерелье из десятков ледниковых озер на севере страны, окруженных живописными холмами, глубокими каньонами и хвойными лесами.</p>
+</div>
+</div>
+</section>
+<section class="slide">
+<h1 data-ru="Великое Княжество & Архитектура" data-en="Grand Duchy & Architecture">Великое Княжество & Архитектура</h1>
+<p class="subtitle" data-ru="Эпоха великих побед и дворцов" data-en="The era of grand victories and palaces">Эпоха великих побед и дворцов</p>
+<div class="grid">
+<div class="card" data-ru-title="Дворец Пусловских в Коссово" data-en-title="Puslovsky Palace in Kossovo" data-img="https://ibb.co" data-ru-desc="Уникальный дворец, построенный в 1838 году, сочетает в себе элементы готики и классицизма. Каждая из его 12 башен символизирует месяц года. Существуют легенды о стеклянном поле-аквариуме со львом." data-en-desc="A unique palace built in 1838, combining elements of Gothic and Classicism. Each of its 12 towers symbolizes a month of the year. There are legends about a glass floor aquarium with a lion.">
+<h3 data-ru="Дворец Пусловских в Коссово" data-en="Puslovsky Palace in Kossovo">Дворец Пусловских в Коссово</h3>
+<p data-ru="Уникальный замок в неоготическом стиле с 12 башнями, каждая из которых символизирует месяц года. Известен своими оптическими иллюзиями и роскошными залами." data-en="A unique Neo-Gothic castle with 12 towers, each symbolizing a month of the year. Known for its optical illusions and luxurious halls.">Уникальный замок в неоготическом стиле с 12 башнями, каждая из которых символизирует месяц года. Известен своими оптическими иллюзиями и роскошными залами.</p>
+</div>
+<div class="card" data-ru-title="Эпоха ВКЛ" data-en-title="The GDL Era" data-img="https://ibb.co" data-ru-desc="Период, когда белорусские земли составляли ядро Великого Княжества Литовского — одного из мощнейших государств средневековой Европы. Это была эпоха расцвета городов и грандиозных военных побед." data-en-desc="The period when Belarusian lands formed the core of the Grand Duchy of Lithuania, one of the most powerful states in medieval Europe. It was an era of urban prosperity and grand military victories.">
+<h3 data-ru="Эпоха ВКЛ" data-en="The GDL Era">Эпоха ВКЛ</h3>
+<p data-ru="Период величайшего расцвета культуры, когда белорусские земли находились в самом центре одного из самых могущественных государств средневековой Европы." data-en="The period of the greatest cultural prosperity, when Belarusian lands were at the very center of one of the most powerful states in medieval Europe.">Период величайшего расцвета культуры, когда белорусские земли находились в самом центре одного из самых могущественных государств средневековой Европы.</p>
+</div>
+<div class="card" data-ru-title="Статуты ВКЛ" data-en-title="Statutes of the GDL" data-img="https://ibb.co" data-ru-desc="Статуты ВКЛ (1529, 1566 и 1588 годов) — это фундаментальные своды законов, созданные на старобелорусском языке. Они фактически стали первыми полноценными конституциями в Европе." data-en-desc="The Statutes of the GDL (1529, 1566, and 1588) are fundamental codes of laws created in the Old Belarusian language. They virtually became the first full-fledged constitutions in Europe.">
+<h3 data-ru="Статуты ВКЛ" data-en="Statutes of the GDL">Статуты ВКЛ</h3>
+<p data-ru="Своды законов Великого Княжества Литовского, написанные на старобелорусском языке, опередившие время и ставшие прообразом европейских конституций." data-en="Codes of laws of the Grand Duchy of Lithuania, written in the Old Belarusian language, ahead of their time and becoming prototypes of European constitutions.">Своды законов Великого Княжества Литовского, написанные на старобелорусском языке, опередившие время и ставшие прообразом европейских конституций.</p>
+</div>
+</div>
+</section>
+</main>
+<div id="myModal" class="modal" onclick="closeModal()">
+<div class="modal-content" onclick="event.stopPropagation()">
+<button class="close-btn" onclick="closeModal()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+<div id="modalVisual" class="modal-img"></div>
+<div class="modal-body">
+<h2 id="modalTitle">Название</h2>
+<p id="modalDesc">Описание.</p>
+</div>
+</div>
+</div>
+<script>
+let currentLang='ru';
+function changeSlide(index){const slides=document.querySelectorAll('.slide');const buttons=document.querySelectorAll('.nav-btn');slides.forEach((slide,i)=>{slide.classList.remove('active');buttons[i].classList.remove('active')});slides[index].classList.add('active');buttons[index].classList.add('active')}
+function toggleLang(lang){currentLang=lang;document.querySelectorAll('.lang-btn').forEach(b=>b.classList.remove('active'));document.querySelector(`.lang-btn[data-lang="${lang}"]`).classList.add('active');document.querySelectorAll('[data-ru]').forEach(el=>{el.innerText=el.getAttribute(`data-${lang}`)});document.querySelectorAll('.card').forEach(card=>{const title=card.querySelector('h3');const p=card.querySelector('p');title.innerText=card.getAttribute(`data-${lang}-title`);p.innerText=card.getAttribute(`data-${lang}-desc`).substring(0,120)+'...';})}
+document.querySelectorAll('.card').forEach(card=>{card.addEventListener('click',function(){document.getElementById('modalTitle').innerText=this.getAttribute(`data-${currentLang}-title`);document.getElementById('modalVisual').style.backgroundImage="url('"+this.getAttribute('data-img')+"')";document.getElementById('modalDesc').innerText=this.getAttribute(`data-${currentLang}-desc`);const m=document.getElementById('myModal');m.style.display='flex';setTimeout(()=>{m.classList.add('active')},10)})});
+function closeModal(){const m=document.getElementById('myModal');m.classList.remove('active');setTimeout(()=>{m.style.display='none'},400)}
+</script>
+</body>
+</html>
+
+
+<style>
+:root{--bg-color:#0d0e12;--panel-bg:#14161d;--panel-border:#222530;--text-color:#9fa4b3;--text-light:#ffffff;--active-color:#a855f7;--glow-color:rgba(168,85,247,0.4)}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Inter','Segoe UI',sans-serif}
+body{background-color:var(--bg-color);color:var(--text-color);display:flex;height:100vh;overflow:hidden;position:relative}
+.lang-switcher{position:absolute;top:24px;right:60px;display:flex;gap:8px;z-index:50}
+.lang-btn{background:var(--panel-bg);border:1px solid var(--panel-border);color:#64748b;padding:6px 12px;font-size:0.85rem;font-weight:600;cursor:pointer;border-radius:6px;transition:all 0.2s}
+.lang-btn:hover{color:var(--text-light);border-color:#2e3344}
+.lang-btn.active{background:var(--active-color);color:#fff;border-color:var(--active-color);box-shadow:0 0 10px var(--glow-color)}
+.sidebar{width:260px;background-color:var(--panel-bg);padding:24px;display:flex;flex-direction:column;border-right:1px solid var(--panel-border)}
+.logo{font-size:1.15rem;font-weight:800;color:var(--text-light);margin-bottom:35px;letter-spacing:2px;text-transform:uppercase;background:linear-gradient(90deg,#fff,var(--active-color));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.nav-btn{background:none;border:1px solid transparent;color:#64748b;padding:14px 16px;text-align:left;font-size:0.95rem;font-weight:500;cursor:pointer;border-radius:10px;margin-bottom:8px;transition:all 0.25s}
+.nav-btn:hover{color:var(--text-light);background-color:#1b1e28;border-color:#2e3344}
+.nav-btn.active{background:linear-gradient(135deg,rgba(168,85,247,0.15),rgba(168,85,247,0.02));color:#f3e8ff;border-color:rgba(168, 85, 247, 0.3);box-shadow:0 4px 12px rgba(168, 85, 247, 0.05)}
+.content{flex:1;padding:50px 60px;overflow-y:auto;background:radial-gradient(circle at 90% 10%,rgba(168,85,247,0.03),transparent 40%)}
+.slide{display:none;opacity:0;transform:scale(0.98) translateY(10px);transition:all 0.35s ease-out}
+.slide.active{display:block;opacity:1;transform:scale(1) translateY(0)}
+h1{color:var(--text-light);font-size:2.6rem;font-weight:800;letter-spacing:-0.5px;margin-bottom:6px;max-width:calc(100% - 150px)}
+.subtitle{color:var(--active-color);margin-bottom:40px;font-size:1rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+.card{background:linear-gradient(145deg,#14161d,#111218);border-radius:14px;padding:28px;border:1px solid var(--panel-border);transition:all 0.3s;cursor:pointer}
+.card:hover{transform:translateY(-4px);border-color:rgba(168,85,247,0.5);box-shadow:0 12px 30px rgba(0,0,0,0.4),0 0 15px var(--glow-color)}
+.card h3{color:var(--text-light);margin-bottom:12px;font-size:1.3rem;font-weight:700}
+.card p{font-size:0.95rem;line-height:1.6;color:#8890a6}
+.modal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(5,5,8,0.85);backdrop-filter:blur(10px);display:none;justify-content:center;align-items:center;z-index:100;opacity:0;transition:opacity 0.4s ease}
+.modal.active{display:flex;opacity:1}
+.modal-content{background:var(--panel-bg);border:1px solid var(--panel-border);width:90%;max-width:700px;border-radius:20px;overflow:hidden;transform:scale(0.9) translateY(30px);transition:all 0.4s cubic-bezier(0.34,1.56,0.64,1);position:relative;box-shadow:0 20px 50px rgba(0,0,0,0.6)}
+.modal.active .modal-content{transform:scale(1) translateY(0)}
+.modal-img{width:100%;height:260px;background-size:cover;background-position:center;border-bottom:1px solid var(--panel-border)}
+.modal-body{padding:35px}
+.modal-body h2{color:var(--text-light);font-size:2rem;margin-bottom:15px}
+.modal-body p{line-height:1.7;color:#b3b8c6;font-size:1.05rem}
+.close-btn{position:absolute;top:20px;right:20px;background:rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.15);color:#fff;width:38px;height:38px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform 0.3s cubic-bezier(0.4,0,0.2,1),background-color 0.2s,border-color 0.2s;z-index:10}
+.close-btn:hover{background:var(--active-color);border-color:var(--active-color);transform:rotate(90deg)}
+.close-btn svg{display:block}
+</style>
+
+
+
+
+
