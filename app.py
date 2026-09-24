@@ -3,7 +3,7 @@ from flask import Flask, render_template_string, Response
 
 app = Flask(__name__)
 
-# Шаблон начального экрана с текстом и размытым фоном
+
 WELCOME_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="ru">
@@ -40,7 +40,6 @@ def index():
 
 @app.route('/presentation')
 def presentation():
-    # Напрямую считываем отдельный презентационный файл из корня проекта
     try:
         with open('presentation.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
@@ -49,6 +48,5 @@ def presentation():
         return "Ошибка: Я облажался!", 404
 
 if __name__ == '__main__':
-    # Автоматическая настройка под порт Render или локальный порт 5000
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
